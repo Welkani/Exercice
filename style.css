@@ -1,24 +1,37 @@
 body{
     font-weight: 400;
     font-family: "OpenSansRegular", Arial, Helvetica, sans-serif !important;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: left;
-    margin-left: 200px;
-    margin-top: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 5%;
+    padding-left: 10%;
+}
+h2{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
 }
 
-
-
+h1{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
 
 nav{
     background-color: rgb(169, 169, 169,0.4);
-    width: 50%;
+    width: 30%;
     padding: 10px;
+    
 }
-
+article{
+    padding: 6px;
+}
+article p{
+    padding: 6px;
+}
 .paragraphe{
-    width:70%;
+    width:60%;
 }
 
 #S3{
@@ -34,4 +47,20 @@ nav{
 i{
     position: relative;
     
+}
+a{
+    text-decoration: none !important;
+}
+a:visited{
+    color: blue;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+a:hover{
+    color: black;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: larger;
 }
