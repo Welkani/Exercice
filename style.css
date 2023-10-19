@@ -1,13 +1,26 @@
-img{
-   
-    position: relative;
-    
-    width:100%;
-    height: 300px;
-    object-fit: cover;
 
+#img-header{
+    position: relative;
+   
+    background-image: url(/images/Accueil.webp);
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+    color: white;
+    text-shadow: rgb(7, 63, 10) 5px 5px;
+    object-fit: contain;
+    overflow: auto;
     
+     
     
+}
+
+
+header h1{
+ float: left;
+ margin-left: 30px;
+ margin-top: 35px;
+ font-size: 8em;
 }
 
 body .main{
@@ -24,7 +37,9 @@ h2{
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
+  
 }
+
 
 h1{
     font-family: inherit;
@@ -64,6 +79,7 @@ i{
 }
 a{
     text-decoration: none !important;
+    
 }
 a:visited{
     color: blue;
@@ -77,4 +93,25 @@ a:hover{
     font-weight: 500;
     line-height: 1.1;
     font-size: larger;
+}
+#buttonr{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #1e30d6; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+button a{
+    color: white;
+    padding:50px;
+}
+button a:visited{
+    color:white;
 }
